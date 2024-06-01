@@ -4,8 +4,8 @@ import { PropsWithChildren, useState } from "react";
 import { Section } from "./Section";
 import classNames from "classnames";
 import { CustomIcons } from "./icons/CustomIcon";
-import { Button } from "@/components/ui/button"
-import '/App.css';
+import { Button } from "@/components/ui/button";
+import '../_landing/App.css';
 
 
 export const Hero = () => {
