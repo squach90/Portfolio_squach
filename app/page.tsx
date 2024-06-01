@@ -7,7 +7,7 @@ import { Footer } from "./_landing/Footer";
 import { Analytics } from '@vercel/analytics/react';
 
 
- function Home({  }) {
+export default function Home({  }) {
   return (
     <div>
       <Analytics/>
@@ -44,5 +44,3 @@ import { Analytics } from '@vercel/analytics/react';
     </div>
   );
 }
-
-export default Home;
