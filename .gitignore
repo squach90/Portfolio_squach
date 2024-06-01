@@ -1,0 +1,3 @@
+# Exclude next-swc.darwin-x64.node
+
+node_modules/.pnpm/@next+swc-darwin-x64*/node_modules/@next/swc-darwin-x64/next-swc.darwin-x64.node
