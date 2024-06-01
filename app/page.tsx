@@ -4,14 +4,10 @@ import { Work } from "./_landing/Work";
 import { Showcase } from "./_landing/Showcase";
 import { CalCom } from "./_landing/CalCom";
 import { Footer } from "./_landing/Footer";
-import { Analytics } from '@vercel/analytics/react';
 
-
-export default function Home({  }) {
+export default function Home() {
   return (
-    <div>
-      <Analytics/>
-      <main className="h-full">
+    <main className="h-full">
       <div
         className="absolute inset-x-0 top-10 -z-10 transform-gpu overflow-hidden blur-3xl"
         aria-hidden="true"
@@ -41,6 +37,5 @@ export default function Home({  }) {
       <CalCom />
       <Footer />
     </main>
-    </div>
   );
 }
