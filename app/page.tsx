@@ -4,6 +4,7 @@ import { Work } from "./_landing/Work";
 import { Showcase } from "./_landing/Showcase";
 import { CalCom } from "./_landing/CalCom";
 import { Footer } from "./_landing/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         </div>
 
       </div>
+      <Analytics />
       <Hero />
       <Work />
       <Showcase />
