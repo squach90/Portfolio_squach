@@ -5,7 +5,6 @@ import { Section } from "./Section";
 import classNames from "classnames";
 import { CustomIcons } from "./icons/CustomIcon";
 import { Button } from "@/components/ui/button";
-import './App.css';
 
 
 export const Hero = () => {
